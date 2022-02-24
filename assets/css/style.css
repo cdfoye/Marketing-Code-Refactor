@@ -1,13 +1,15 @@
+/* Sets all elements to have sizing that will include padding and border in the width and height. Also sets all elements to have a default 0px for margin and padding */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Sets background color for everything outside of the header */
 body {
     background-color: #d9dcd6;
 }
 
+/* Specifies the background color, text color, font, and padding for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ body {
     color: #ffffff;
 }
 
+/* Sets header 1 text to display horizontally and sets font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets font color just for "seo" portion of "Horiseon" */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Moves list items to center of blue rectangle and justified right, adds space from the right side, changes the font, and the font size */
 .header ul {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,38 +38,24 @@ body {
     list-style-type: none;
 }
 
+/* Displays list items horizontally and adds space between each item */
 .header ul li{
     display: inline-block;
     margin-left: 25px;
 }
 
-/* ul {
-    list-style-type: none;
-    color: #ffffff;
-    text-decoration: none;
-} */
-
-/* .header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-} */
-
-/* .list {
-    display: inline-block;
-    margin-left: 25px;
-    color: #ffffff;
-    text-decoration: none;
-} */
-
+/* Changes color of links and removes the underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets text size for all paragraphs to 16px */
 p {
     font-size: 16px;
 }
 
+/* Adds photo to the background and positions it */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,22 +65,26 @@ p {
     background-position: center;
 }
 
+/* Moves the image to the left of the text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Moves the image to the right of the text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets width of horizontal boxes, displays inline wth vertical rectangle, and adds a margin to the left */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Positioning for benefits box */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,54 +96,64 @@ p {
     background-color: #2589bd;
 }
 
+/* Positioning and text color for lead generation section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Positioning and text color for brand awareness section */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Positioning and text color for cost management section */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Positioning for lead generation header */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Positioning for brand awareness header */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Positioning for cost management header */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Positioning for lead generation image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Positioning for brand awareness image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Positioning for cost management image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Box positioning and text styling for search engine optimization box */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -158,6 +163,7 @@ p {
     color: #ffffff;
 }
 
+/* Box positioning and text styling for online reputation management box */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -167,6 +173,7 @@ p {
     color: #ffffff;
 }
 
+/* Box positioning and text styling for social media marketing box */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -176,33 +183,40 @@ p {
     color: #ffffff;
 }
 
+/* Sets image size */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Sets image size */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Sets image size */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Header position and size */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Header position and size */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Header position and size */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer positioning and text styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -210,6 +224,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Header font size */
+.footer h4 {
     font-size: 20px;
 }
