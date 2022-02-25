@@ -11,7 +11,7 @@
     <br />
     <h2 align="center"><a href="https://github.com/cdfoye/Marketing-Code-Refactor"><strong>Explore the docs »</strong></a></h2>
     <br />
-    <h2 align="center"><a href="https://github.com/cdfoye/Marketing-Code-Refactor">View Demo »</strong></a></h2>
+    <h2 align="center"><a href="https://cdfoye.github.io/Marketing-Code-Refactor/">View Demo »</strong></a></h2>
     <br />
     <br />
   </p>
