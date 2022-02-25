@@ -50,11 +50,6 @@ a {
     text-decoration: none;
 }
 
-/* Sets text size for all paragraphs to 16px */
-p {
-    font-size: 16px;
-}
-
 /* Adds photo to the background and positions it */
 .hero {
     height: 800px;
@@ -63,6 +58,13 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Sets width of horizontal boxes, displays inline wth vertical rectangle, and adds a margin to the left */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /* Moves the image to the left of the text */
@@ -77,11 +79,30 @@ p {
     margin-left: 25px;
 }
 
-/* Sets width of horizontal boxes, displays inline wth vertical rectangle, and adds a margin to the left */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Sets text size for all paragraphs to 16px */
+p {
+    font-size: 16px;
+}
+
+/* Box positioning and text styling for content boxes. Classes used to be search-engine-optimization, online-reputation-management, and social-media-marketing */
+.resources {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets content image sizes. Classes were orignially search-engine-optimization, online-reputation-management, and social-media-marketing */
+.resources img {
+    max-height: 200px;
+}
+
+/* Position and sizing for h2 headers */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* Positioning for benefits box */
@@ -96,124 +117,23 @@ p {
     background-color: #2589bd;
 }
 
-/* Positioning and text color for lead generation section */
-.benefit-lead {
+/* Positioning and text color for benefits sections (lead generation, brand awareness, and cost management originally)  */
+.benefit-sections {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Positioning and text color for brand awareness section */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Positioning and text color for cost management section */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Positioning for lead generation header */
-.benefit-lead h3 {
+/* Positioning for benefits headers */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Positioning for brand awareness header */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Positioning for cost management header */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Positioning for lead generation image */
-.benefit-lead img {
+/* Positioning for benefits images */
+.benefit-sections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Positioning for brand awareness image */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Positioning for cost management image */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Box positioning and text styling for search engine optimization box */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Box positioning and text styling for online reputation management box */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Box positioning and text styling for social media marketing box */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Sets image size */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* Sets image size */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Sets image size */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Header position and size */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Header position and size */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Header position and size */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Footer positioning and text styling */
@@ -224,7 +144,7 @@ p {
     text-align: center;
 }
 
-/* Header font size */
+/* Footer header font size */
 .footer h4 {
     font-size: 20px;
 }
